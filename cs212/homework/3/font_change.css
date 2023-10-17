@@ -1,0 +1,21 @@
+/*
+    changes font type and adds one with a file.
+*/
+
+@font-face {
+    font-family: mystery_quest;
+    src: url(MysteryQuest-Regular.ttf);
+    }
+@font-face {
+    font-family: requiem;
+    src: url(Requiem.ttf);
+    }
+
+* { color: black; font-family: mystery_quest;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;}
+   
+h1 { font-size: 60px; }
+h2 { font-size: 25px; }
+p { color: blue; font-size: 15px;}
+.sphinx {color: red; font-size: 50px; font-family:requiem;}

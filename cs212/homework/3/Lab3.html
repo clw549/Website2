@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 3 Fonts</title>
+    <link href="font_change.css" type="text/css" rel=
+     "stylesheet" />
+</head>
+<body>
+    <article>
+    <p>The quick brown fox jumped over the lazy dog</p>
+    <h1>How to Change The Font of Your Website</h1>
+    <h2>Where to start?</h2>
+    <p>Well first you need a font, in my case I used a .ttf file (TrueType font file). next you need a css file to put the font to text, in the css file you need to make sure the font-family is being used to change the font of your desired areas. I used the @font-face to add a new font from a file. In the @font-face you need to name the font family and then link the file so that it can be found. </p>
+    <h2>Ok now html?</h2>
+    <p>Not yet, we need to make where the font effects clear first. There are so many ways you can do this but for simplicity the * (all) is what I am using. Almost every text has the same font, but I did change some colors, note that you do not need to re-add the font in order to just change the color. As long as you are not changing the font of the element it will be part of the * (all) element. Otherwise the code will prefer the more specific class or tag.</p>
+    <h2>now do we do html?</h2>
+    <p>Yes! The html is very simple. use the link tag in the head and link in your stylesheet like another page but without the clickable part. Make sure to add the "type" and "rel" (relation) areas so your site knows what it is looking for and at. The type should be "text/css" and the relation is "stylesheet" the stylesheet tells the server what the file is.</p>
+    <h2>Is that all?</h2>
+    <p>Sure is! Now just add some text like this or the little saying at the top to checkout all the letters. You can do this for as many fonts as you like. Another good font check sentence is:</p>
+    <p class="sphinx">Sphinx of Black Quartz, Judge My Vow.</p>
+
+
+  </article>
+</body>
+</html>

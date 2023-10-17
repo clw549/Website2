@@ -1,0 +1,83 @@
+/*
+	Comment
+*/
+
+* {
+    font-family: Tahoma;
+    background-color: #000000;
+    color: #BE41A3;
+    
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 50%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    width: 78%;
+}
+
+h3 {
+    width: 76%;
+}
+
+a {
+    color: #BE9B41; 
+    font-size: 100%;
+}
+
+.list-link {
+    font-size: 100%;
+    
+    background-color: #4164BE;
+    
+    width: 80%;
+}
+
+.LinkInP {
+    background-color: #000000;
+}
+
+li {
+    color: #BE9B41; 
+    font-size: 100%;
+    
+    background-color: #4164BE;
+    
+    width: 75%;
+}
+
+ul {
+    background-color: #4164BE;
+    
+    width: 75%;
+    padding: 4px;
+}
+
+p {
+    border-width: 2px;
+    border: solid;
+    
+    color: #4164BE;
+    
+    padding: 2px;
+    width: 85%;
+    
+    border-color: #41BE5C;
+    
+    font-size: 100%;
+}
+
+img {
+    background-color: #BE9B41;
+    min-width: 0%;
+    margin-right: 5%;
+    
+    border-width: 2px;
+    padding: 5px;
+    border: solid;
+    border-color: #41BE5C;
+}
