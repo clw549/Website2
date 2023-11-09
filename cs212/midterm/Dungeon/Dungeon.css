@@ -1,0 +1,45 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-image: url(dungeon_background.jpg);
+    background-size:cover;
+    color:navajowhite;
+}
+.content {
+    width: 65%;
+}
+.room-name {
+    color: lightcoral;
+}
+
+.action-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    flex-direction: column;
+    background-image: url('stoneTexture.jpg');
+    background-size:cover;
+    border: solid 2px;
+    border-radius: 5px;
+    border-color: grey;
+    text-align: center;
+
+}
+
+button {
+    background-color: #ffffff88;
+    padding: 10px;
+    align-self: center;
+    text-align: center;
+    flex-grow: 1;
+    color: black;
+    
+}
