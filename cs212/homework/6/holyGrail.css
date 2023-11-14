@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+    border: 2px;
+    border-radius: 5px;
+    border-color: brown;
+}
+
+p {
+    margin:0px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding:5px;
+}
+button {
+    margin: 5px;
+}
+.main-content {
+    display: flex;
+    flex-direction: row;
+}
+.header {
+    text-align: center;
+    background-color: lavender;
+    font-size: 3em;
+}
+.addendum {
+    background-color: lavender;
+}
+.content {
+    flex-grow: 3;
+    background-color: beige;
+    text-align: center;
+}
+.ad {
+    flex-grow: 0;
+    background-color: pink;
+}
+.menu {
+    flex-grow: 1;
+    background-color: pink;
+}
+img {
+    display:flex;
+    height: 100;
+    width: 100;
+    align-self: right;
+}
