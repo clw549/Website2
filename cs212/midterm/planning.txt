@@ -1,0 +1,99 @@
+always available options:
+	items: opens items, 
+	quit: does nothing, 
+	dance: You dance to your hearts content!,
+	investigate: You look around, searching for something of meaning.
+		default: Sadly you don't find anthing of note.
+items:
+	torch: hold attack(2), 
+	bagguet: eat, 
+	spear: attack(3),
+	daggar: attack(2) throw(2),
+	hammar: attack(3),
+	chair: attack(4),
+common-actions:
+	attack: you run up and attack! hit/miss
+
+prologue:
+	You find yourself in a dungeon, damp and full of moss. Seems like nobody has been here in quite some time. With what little equipment you have, do you challenge the dungeon?
+	y/n
+
+prologue-no: 
+	You leave the dungeon from whence you came. You learned nothing, and gained only security in not dying within the dungeon. The end.
+
+prologue-yes:
+	You enter the door of the dungeon. The heavy door opens and creaks as it does, the room revealed is unlit. All you can see is what the light behind you reveals, the room is dim but you can make out some crates, two doors, and some things in the corner. 
+	
+entrance:
+	options:
+		look at things, open right door, open front door, search boxes, exit
+
+	boxes:
+		nothing is in most of them, not much was left behind, but you do find two daggars, you find them light and throwable.
+
+	things:
+		there are a few things, mostly broken sticks and a hammer.
+
+	front-door:
+		leads to hall
+
+	right door:
+		leads to small room
+	exit:
+		You leave the dungeon with what you have. Although not complete, you are alive. The end.
+
+hall: 
+	bat-battle:
+	As you open the door a hall sprawls out in front of you suddenly lighting up with torches down the hall. You are immediately faced with a problem of two bats springing to life.
+	dance:
+		the bats are not amused, they are too tired to dance with you.
+	attack: 
+		you run up attacking ferociously! 
+		pickweapon:
+			from items, or FISTS!
+	nope:
+		you close the door, returning to the entrance.
+
+hall-description:
+	the hall is barren. only lit by torches and a singular door at the other end.
+
+	options:
+		unlight torches: 
+			You unlight the torches, it is dark. Hello darkness my old friend... Wait! something clicked! (door unlocks)
+		open-door:
+			it is locked, however it does not look sturdy.
+		attack-door:
+			You break down the fragile door! RAAAH! WEAK! (enter big room)
+		knock:
+			you politely knock on the door... A grumble comes from the other side. Then silence again.
+
+small-room:
+	You enter a small room, there is a chair, and a cabinet for some sort of storage.
+	cabinet:
+		You do not find absolutely anything in the cabinet.
+	chair:
+		You pick up the chair!
+	investigate:
+		You find that the cabinet is actually a door with a small passage! (leads to big room)
+
+big-room:
+	You enter a large room, at the center is a beast! It sees you! What do you do??
+	attack:
+	dance:
+		The beast is entertained! It lets you by. (go to treasure room)
+	nope: 
+		you return from wence you came, you find yourself leaving the whole dungeon before you realize, and the door locks behind you. The end.
+
+treasure-room:
+	You have found treasure! Congratulations! Finding this is just what you needed to get your adventuring career started! But wait, who are you? what are your goals and asperations? What is your name? You cannot remember. With this though, your future is clear. Aventure and find out!
+	no-kills:
+		You find one truth, you are a passifist. 
+	ATTACK:
+		You find one truth, you are strong willed and head strong! RAAHHH!
+	neutral:
+		You find one truth, exploration calls to you, you must find more things to learn about yourself.
+	no-pickups:
+		You find one truth, you are cautous of everything. 
+	dance:
+		You find one truth, you find happiness in dancing!
+		
