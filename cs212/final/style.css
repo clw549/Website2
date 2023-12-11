@@ -16,5 +16,7 @@ divl {
     flex-grow: 1;
     padding:2px;
     border:2px;
-    border-color: grey;
+    border-style: solid;
+    border-color: black;
+
 }
